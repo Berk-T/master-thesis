@@ -15,11 +15,12 @@ function App() {
       </p>
       <div className="pdf-viewer-container">
         <iframe
-          src="/Master_Thesis_Berk_Takit_2025.pdf"
+          src="Master_Thesis_Berk_Takit_2025.pdf"
           title="AI-Based Cochlear Implant Insertion Depth Estimation"
           className="pdf-iframe"
         ></iframe>
       </div>
+      <button className="download-btn">Download PDF</button>
     </div>
   );
 }

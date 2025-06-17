@@ -5,6 +5,13 @@
   text-align: center;
 }
 
+body {
+  background: #242424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .thesis-container {
   max-width: 800px;
   margin: 40px auto;
@@ -32,6 +39,7 @@
 }
 
 .download-btn {
+  cursor: pointer;
   display: inline-block;
   padding: 12px 28px;
   background: #2563eb;
